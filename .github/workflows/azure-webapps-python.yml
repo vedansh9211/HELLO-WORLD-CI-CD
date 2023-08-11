@@ -45,7 +45,7 @@ jobs:
           cache: 'pip'
 
       - name: Create and start virtual environment
-        run: |
+        run: python main.py
           python -m venv venv
           source venv/bin/activate
 
